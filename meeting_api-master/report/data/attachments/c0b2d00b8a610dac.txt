@@ -1,0 +1,7 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 192.168.110.52:80
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+INFO     root:meeting_app.py:36 取消组局-app
+INFO     root:meeting_app.py:37 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+INFO     root:meeting_app.py:38 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+INFO     root:meeting_app.py:39 响应结果：{'code': 500, 'message': '组局已屏蔽,不可取消', 'data': None}
+INFO     root:assert_app_meeting.py:16 预期：已屏蔽,不可取消	实际：组局已屏蔽,不可取消

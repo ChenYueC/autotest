@@ -1,0 +1,35 @@
+# 获取组局详情 --- {id}
+get_meeting_info: /explore/admin/exploreMeeting/info/
+
+# 获取组局列表
+get_meeting_list: /explore/admin/exploreMeeting/list
+
+# 报名审核通过 --- {id}
+apply_pass: /explore/admin/exploreMeeting/apply/fail/
+
+# 报名审核拒绝
+apply_reject: /explore/admin/exploreMeeting/apply/fail/
+
+# 设置精彩组局 --- {id}
+set_good_meeting: /explore/admin/exploreMeeting/modifyGood/
+
+# 推荐组局 --- {id}
+recommend_meeting: /explore/admin/exploreMeeting/modifyRecommend/
+
+# 有局报名注水 --- {id}
+meeting_fake: /explore/admin/exploreMeeting/modifyFakerSignUpCount/
+
+# 新增商户
+add_trade_tenant: /explore/admin/exploreMerchant/add
+
+# 获取商户详情 --- {id}
+get_trade_tenant_info: /explore/admin/exploreMerchant/info/
+
+# 获取商户列表 --- {id}
+get_trade_tenant_list: /explore/admin/exploreMerchant/list
+
+# 修改商户状态 --- {id}
+update_trade_tenant_start: /explore/admin/exploreMerchant/put/status/
+
+# 修改商户信息 --- {id}
+update_trade_tenant_info: /explore/admin/exploreMerchant/edit/

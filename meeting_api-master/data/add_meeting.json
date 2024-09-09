@@ -1,0 +1,119 @@
+[
+  {
+    "case_title": "新增有局成功",
+    "case_description": "新增有局---仅必填项填写，预期：新增成功",
+    "token_phone": 15888888888,
+    "start_times": 3600,
+    "end_times": 7200,
+    "body": {
+      "meetingTitle": "pytest_有局",
+      "meetingChooseType": "测试",
+      "meetingAddress": "地址",
+      "meetingAddressDetail": "详细地址",
+      "meetingAddressLatitude": 39.903179,
+      "meetingAddressLongitude": 116.397755,
+      "meetingPaymentType": "03",
+      "meetingType": "02",
+      "meetingSeat": 2
+    },
+    "code": 200,
+    "msg": "成功"
+  },
+  {
+    "case_title": "新增有局失败---开始时间空",
+    "case_description": "新增有局---组局开始时间为空，预期：开始时间为空、新增失败",
+    "token_phone": 15888888888,
+    "start_times": 0,
+    "end_times": 7200,
+    "body": {
+      "meetingTitle": "pytest_有局",
+      "meetingChooseType": "测试",
+      "meetingAddress": "地址",
+      "meetingAddressDetail": "详细地址",
+      "meetingAddressLatitude": 39.903179,
+      "meetingAddressLongitude": 116.397755,
+      "meetingPaymentType": "03",
+      "meetingType": "02",
+      "meetingSeat": 2
+    },
+    "code": 500,
+    "msg": "开始时间不能为空"
+  },
+  {
+    "case_title": "新增有局失败---结束时间空",
+    "case_description": "新增有局---组局结束时间为空，预期：结束时间为空、新增失败",
+    "token_phone": 15888888888,
+    "start_times": 3600,
+    "end_times": 0,
+    "body": {
+      "meetingTitle": "pytest_有局",
+      "meetingChooseType": "测试",
+      "meetingAddress": "地址",
+      "meetingAddressDetail": "详细地址",
+      "meetingAddressLatitude": 39.903179,
+      "meetingAddressLongitude": 116.397755,
+      "meetingPaymentType": "03",
+      "meetingType": "02",
+      "meetingSeat": 2
+    },
+    "code": 500,
+    "msg": "结束时间不能为空"
+  },
+  {
+    "case_title": "新增有局失败---费用方式空",
+    "case_description": "新增有局---开放局、费用方式为空，预期：付款方式为空、新增失败",
+    "token_phone": 15888888888,
+    "start_times": 3600,
+    "end_times": 7200,
+    "body": {
+      "meetingTitle": "pytest_有局",
+      "meetingChooseType": "测试",
+      "meetingAddress": "地址",
+      "meetingAddressDetail": "详细地址",
+      "meetingAddressLatitude": 39.903179,
+      "meetingAddressLongitude": 116.397755,
+      "meetingType": "02",
+      "meetingSeat": 2
+    },
+    "code": 500,
+    "msg": "付款方式不能为空"
+  },
+  {
+    "case_title": "新增有局失败---组局方式空",
+    "case_description": "新增有局---组局方式为空，预期：组局方式为空、新增失败",
+    "token_phone": 15888888888,
+    "start_times": 3600,
+    "end_times": 7200,
+    "body": {
+      "meetingTitle": "pytest_有局",
+      "meetingChooseType": "测试",
+      "meetingAddress": "地址",
+      "meetingAddressDetail": "详细地址",
+      "meetingAddressLatitude": 39.903179,
+      "meetingAddressLongitude": 116.397755,
+      "meetingPaymentType": "03",
+      "meetingSeat": 2
+    },
+    "code": 500,
+    "msg": "类型不能为空"
+  },
+  {
+    "case_title": "新增有局失败---席位数为空",
+    "case_description": "新增有局---组局方式为空，预期：组局方式为空、新增失败",
+    "token_phone": 15888888888,
+    "start_times": 3600,
+    "end_times": 7200,
+    "body": {
+      "meetingTitle": "pytest_有局",
+      "meetingChooseType": "测试",
+      "meetingAddress": "地址",
+      "meetingAddressDetail": "详细地址",
+      "meetingAddressLatitude": 39.903179,
+      "meetingAddressLongitude": 116.397755,
+      "meetingPaymentType": "03",
+      "meetingType": "02"
+    },
+    "code": 500,
+    "msg": "座位数不能为空"
+  }
+]

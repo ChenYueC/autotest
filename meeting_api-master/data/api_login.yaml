@@ -1,0 +1,9 @@
+code: /usercenter/app/v3.0.1.300/login/code
+login: /usercenter/app/v3.0.1.301/login/index
+
+header:
+  User-Agent: pytest
+
+login_body:
+    code: 1234
+    account: 15888888888

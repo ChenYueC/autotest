@@ -1,0 +1,50 @@
+# 新增组局
+add: /explore/app/v2.0/meeting/add
+
+# 报名组局 --- {id}
+apply: /explore/app/v2.0/meeting/apply/
+
+# 取消报名 --- {id}
+cancel_apply: /explore/app/v2.0/meeting/cancel/apply/
+
+# 取消组局 --- {id}
+cancel_meeting: /explore/app/v2.0/meeting/cancel/
+
+# 获取组局详情- --- {id}
+get_details: /explore/app/v2.0/meeting/info/
+
+# 获取组局列表
+get_meeting_list: /explore/app/v2.0/meeting/list
+
+# 获取我发布的组局列表
+get_my_send_meeting_list: /explore/app/v2.0/meeting/user/add/list
+
+# 获取我报名的组局列表
+get_my_apply_meeting_list: /explore/app/v2.0/meeting/user/apply/list
+
+# 获取邀请我的列表
+get_my_invite_meeting_list: /explore/app/v2.0/meeting/user/invite/list
+
+# 报名通过 --- {id}
+apply_pass: /explore/app/v2.0/meetingUser/apply/pass/
+
+# 报名拒绝 --- {id}
+apply_reject: /explore/app/v2.0/meetingUser/apply/fail/
+
+# 获取审核列表
+get_audit_list: /explore/app/v2.0/meetingUser/list
+
+# 查询今日已约局
+search_meeting: /explore/app/v2.0/meetingUser/today/apply/count
+
+# 有局打赏
+meeting_give_money: /explore/app/v2.0/reward
+
+# 获取打赏列表
+get_give_money: /explore/app/v2.0/reward/list
+
+# 商户入驻
+meeting_trade_tenant: /explore/app/v2.0/merchant
+
+# 获取商户列表
+get_trade_tenant: /explore/app/v2.0/merchant/list

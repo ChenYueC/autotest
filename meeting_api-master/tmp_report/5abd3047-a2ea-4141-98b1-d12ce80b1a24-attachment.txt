@@ -1,0 +1,8 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 192.168.110.52:80
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+INFO     root:meeting_app.py:20 新增组局-app
+INFO     root:meeting_app.py:21 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+INFO     root:meeting_app.py:22 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+INFO     root:meeting_app.py:23 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 17:27:20', 'meetingEndTime': '2023-03-07 18:27:20'}
+INFO     root:meeting_app.py:24 响应结果：{'code': 500, 'message': '会议付款方式不能为空', 'data': None}
+INFO     root:assert_app_meeting.py:9 预期：付款方式不能为空	实际：会议付款方式不能为空

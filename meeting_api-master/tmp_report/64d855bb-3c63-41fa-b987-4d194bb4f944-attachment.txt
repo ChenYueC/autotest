@@ -1,0 +1,6 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 192.168.110.52:80
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+INFO     root:meeting_app.py:51 报名组局-app
+INFO     root:meeting_app.py:52 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+INFO     root:meeting_app.py:53 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+INFO     root:meeting_app.py:54 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}

@@ -1,0 +1,875 @@
+2023-03-07 15:05:51,921 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:05:51,976 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:05:51,977 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:05:51,978 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:05:51,978 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:05:51,978 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:05:53,092 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:05:53,118 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:05:53,119 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:05:53,119 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:05:53,119 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:05:53,120 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:05:54,294 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:05:54,331 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:05:54,332 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:05:54,333 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:05:54,333 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:05:54,333 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:05:56,627 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:05:56,651 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:05:56,652 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:05:56,652 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:05:56,652 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:05:56,653 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:05:57,794 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:05:57,820 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:05:57,821 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:05:57,821 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:05:57,822 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:05:57,822 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:12:48,946 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:49,055 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:12:49,057 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:12:49,057 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:12:49,057 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:12:49,058 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:12:48', 'meetingEndTime': '2023-03-07 17:12:48'}
+2023-03-07 15:12:49,058 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': '1633002589786234881'}
+2023-03-07 15:12:49,058 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：成功	实际：操作成功
+2023-03-07 15:12:50,067 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:51,092 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:12:51,093 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:12:51,093 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:12:51,093 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:12:51,094 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingEndTime': '2023-03-07 17:12:50'}
+2023-03-07 15:12:51,094 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '开始时间不能为空', 'data': None}
+2023-03-07 15:12:51,094 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：开始时间不能为空	实际：开始时间不能为空
+2023-03-07 15:12:52,112 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:52,136 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:12:52,137 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:12:52,137 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:12:52,137 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:12:52,138 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:12:52'}
+2023-03-07 15:12:52,138 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '结束时间不能为空', 'data': None}
+2023-03-07 15:12:52,138 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：结束时间不能为空	实际：结束时间不能为空
+2023-03-07 15:12:53,154 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:53,176 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:12:53,177 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:12:53,177 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:12:53,178 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:12:53,178 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:12:53', 'meetingEndTime': '2023-03-07 17:12:53'}
+2023-03-07 15:12:53,178 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '会议付款方式不能为空', 'data': None}
+2023-03-07 15:12:53,178 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：付款方式不能为空	实际：会议付款方式不能为空
+2023-03-07 15:12:54,200 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:54,222 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:12:54,223 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:12:54,223 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:12:54,223 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:12:54,224 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:12:54', 'meetingEndTime': '2023-03-07 17:12:54'}
+2023-03-07 15:12:54,224 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '类型不能为空', 'data': None}
+2023-03-07 15:12:54,224 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：类型不能为空	实际：类型不能为空
+2023-03-07 15:12:55,250 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:55,275 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:12:55,276 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:12:55,276 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:12:55,276 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:12:55,276 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingStartTime': '2023-03-07 16:12:55', 'meetingEndTime': '2023-03-07 17:12:55'}
+2023-03-07 15:12:55,276 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '座位数不能为空', 'data': None}
+2023-03-07 15:12:55,277 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：座位数不能为空	实际：座位数不能为空
+2023-03-07 15:12:56,296 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:56,471 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:12:56,471 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:12:56,472 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:12:56,472 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:12:56,472 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:12:57,592 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:57,617 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:12:57,618 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:12:57,618 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:12:57,618 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:12:57,619 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:12:58,792 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:12:58,844 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:12:58,845 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:12:58,845 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:12:58,846 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:12:58,846 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:13:01,139 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:01,163 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:01,164 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:13:01,164 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:13:01,164 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:13:01,164 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:13:02,314 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:02,339 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:02,339 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:13:02,340 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:13:02,340 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:13:02,340 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:13:03,477 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:03,500 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:03,501 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:13:03,501 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:13:03,501 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:13:03,501 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:13:04,644 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:04,666 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:04,666 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:13:04,666 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:13:04,667 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:13:04,667 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:13:05,805 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:05,830 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:05,831 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:13:05,831 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:13:05,831 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:13:05,832 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:13:06,946 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:07,005 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:07,006 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:07,006 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:07,006 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:07,006 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:13:07,007 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：成功	实际：操作成功
+2023-03-07 15:13:08,194 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:08,217 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:08,218 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:08,218 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:08,218 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:08,218 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局进行中,不可取消', 'data': None}
+2023-03-07 15:13:08,219 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：进行中,不可取消	实际：组局进行中,不可取消
+2023-03-07 15:13:09,369 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:09,392 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:09,392 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:09,393 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:09,393 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:09,393 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已结束,不可取消', 'data': None}
+2023-03-07 15:13:09,393 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已结束,不可取消	实际：组局已结束,不可取消
+2023-03-07 15:13:10,544 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:10,566 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:10,566 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:10,567 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:10,567 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:10,567 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已屏蔽,不可取消', 'data': None}
+2023-03-07 15:13:10,567 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已屏蔽,不可取消	实际：组局已屏蔽,不可取消
+2023-03-07 15:13:11,744 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:11,770 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:11,771 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:11,771 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:11,772 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:11,772 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已取消,不可取消', 'data': None}
+2023-03-07 15:13:11,772 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已取消,不可取消	实际：组局已取消,不可取消
+2023-03-07 15:13:12,910 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:12,933 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:12,934 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:12,934 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:12,934 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:12,934 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局组局失败,不可取消', 'data': None}
+2023-03-07 15:13:12,935 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：组局失败,不可取消	实际：组局组局失败,不可取消
+2023-03-07 15:13:14,118 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:13:14,139 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:13:14,140 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:13:14,140 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633002589786234881
+2023-03-07 15:13:14,141 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:13:14,141 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 15:13:14,141 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已完成,不可取消	实际：组局已完成,不可取消
+2023-03-07 15:18:57,565 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:18:57,589 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:18:57,590 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:18:57,590 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:18:57,590 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:18:57,591 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:18:58,861 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:18:58,883 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:18:58,884 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:18:58,885 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:18:58,885 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:18:58,885 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:19:00,022 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:19:00,044 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:19:00,044 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:19:00,044 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:19:00,045 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:19:00,045 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:19:01,176 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:19:01,196 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:19:01,197 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:19:01,197 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:19:01,197 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:19:01,197 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:19:02,332 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:19:02,352 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:19:02,353 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:19:02,353 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:19:02,353 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:19:02,354 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:19:03,503 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:19:03,526 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:19:03,526 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:19:03,526 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:19:03,527 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:19:03,527 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:19:04,666 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:19:04,690 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:19:04,691 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:19:04,691 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:19:04,692 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:19:04,692 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:19:05,828 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:19:05,849 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:19:05,850 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:19:05,850 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:19:05,850 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:19:05,851 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:37:28,635 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:37:28,661 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:37:28,662 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:37:28,662 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:37:28,663 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:37:28,663 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:37:29,938 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:37:29,959 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:37:29,960 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:37:29,960 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:37:29,961 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:37:29,961 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:37:31,122 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:37:31,145 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:37:31,146 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:37:31,146 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:37:31,147 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:37:31,147 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}
+2023-03-07 15:37:32,305 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:37:32,326 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881 HTTP/1.1" 200 None
+2023-03-07 15:37:32,327 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:37:32,327 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633002589786234881
+2023-03-07 15:37:32,327 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:37:32,328 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已结束,不可报名', 'data': None}
+2023-03-07 15:38:24,643 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:24,702 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:38:24,704 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:38:24,704 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:38:24,704 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:24,704 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:38:24', 'meetingEndTime': '2023-03-07 17:38:24'}
+2023-03-07 15:38:24,705 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': '1633009031033413633'}
+2023-03-07 15:38:24,705 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：成功	实际：操作成功
+2023-03-07 15:38:25,720 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:25,743 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:38:25,744 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:38:25,744 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:38:25,744 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:25,745 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingEndTime': '2023-03-07 17:38:25'}
+2023-03-07 15:38:25,745 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '开始时间不能为空', 'data': None}
+2023-03-07 15:38:25,745 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：开始时间不能为空	实际：开始时间不能为空
+2023-03-07 15:38:26,767 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:26,796 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:38:26,797 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:38:26,797 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:38:26,797 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:26,797 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:38:26'}
+2023-03-07 15:38:26,797 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '结束时间不能为空', 'data': None}
+2023-03-07 15:38:26,798 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：结束时间不能为空	实际：结束时间不能为空
+2023-03-07 15:38:27,807 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:27,835 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:38:27,836 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:38:27,836 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:38:27,836 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:27,836 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:38:27', 'meetingEndTime': '2023-03-07 17:38:27'}
+2023-03-07 15:38:27,837 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '会议付款方式不能为空', 'data': None}
+2023-03-07 15:38:27,837 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：付款方式不能为空	实际：会议付款方式不能为空
+2023-03-07 15:38:28,851 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:28,874 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:38:28,875 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:38:28,875 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:38:28,875 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:28,875 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:38:28', 'meetingEndTime': '2023-03-07 17:38:28'}
+2023-03-07 15:38:28,876 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '类型不能为空', 'data': None}
+2023-03-07 15:38:28,876 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：类型不能为空	实际：类型不能为空
+2023-03-07 15:38:29,898 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:29,919 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:38:29,920 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:38:29,920 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:38:29,921 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:29,921 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingStartTime': '2023-03-07 16:38:29', 'meetingEndTime': '2023-03-07 17:38:29'}
+2023-03-07 15:38:29,921 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '座位数不能为空', 'data': None}
+2023-03-07 15:38:29,921 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：座位数不能为空	实际：座位数不能为空
+2023-03-07 15:38:30,942 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:30,988 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:30,989 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:30,990 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:30,990 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:30,990 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:38:32,108 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:32,130 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:32,131 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:32,131 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:32,131 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:32,132 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:38:33,283 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:33,305 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:33,306 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:33,306 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:33,307 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:33,307 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}
+2023-03-07 15:38:34,462 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:34,489 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:34,490 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:34,490 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:34,490 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:34,490 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:38:35,820 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:35,840 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:35,841 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:35,841 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:35,841 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:35,842 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:38:37,023 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:37,043 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:37,044 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:37,044 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:37,044 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:37,044 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:38:38,204 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:38,227 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:38,228 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:38,228 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:38,228 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:38,229 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:38:39,653 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:39,674 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:39,675 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:38:39,675 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633009031033413633
+2023-03-07 15:38:39,675 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:38:39,676 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:38:40,805 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:40,827 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:40,828 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:40,828 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:40,828 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:40,828 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 15:38:40,829 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：成功	实际：组局已完成,不可取消
+2023-03-07 15:38:42,003 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:42,029 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:42,030 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:42,030 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:42,030 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:42,031 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局进行中,不可取消', 'data': None}
+2023-03-07 15:38:42,031 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：进行中,不可取消	实际：组局进行中,不可取消
+2023-03-07 15:38:43,187 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:43,207 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:43,208 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:43,208 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:43,208 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:43,208 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已结束,不可取消', 'data': None}
+2023-03-07 15:38:43,209 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已结束,不可取消	实际：组局已结束,不可取消
+2023-03-07 15:38:44,362 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:44,383 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:44,384 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:44,384 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:44,384 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:44,385 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已屏蔽,不可取消', 'data': None}
+2023-03-07 15:38:44,385 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已屏蔽,不可取消	实际：组局已屏蔽,不可取消
+2023-03-07 15:38:45,579 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:45,625 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:45,626 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:45,626 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:45,627 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:45,627 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已取消,不可取消', 'data': None}
+2023-03-07 15:38:45,627 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已取消,不可取消	实际：组局已取消,不可取消
+2023-03-07 15:38:46,795 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:46,821 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:46,822 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:46,822 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:46,822 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:46,822 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局组局失败,不可取消', 'data': None}
+2023-03-07 15:38:46,823 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：组局失败,不可取消	实际：组局组局失败,不可取消
+2023-03-07 15:38:47,971 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:38:47,990 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633 HTTP/1.1" 200 None
+2023-03-07 15:38:47,991 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:38:47,991 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633009031033413633
+2023-03-07 15:38:47,992 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:38:47,992 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 15:38:47,992 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已完成,不可取消	实际：组局已完成,不可取消
+2023-03-07 15:45:17,153 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:17,278 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:45:17,280 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:45:17,280 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:45:17,280 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:17,280 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:45:17', 'meetingEndTime': '2023-03-07 17:45:17'}
+2023-03-07 15:45:17,281 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': '1633010761246728194'}
+2023-03-07 15:45:17,281 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：成功	实际：操作成功
+2023-03-07 15:45:18,302 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:18,323 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:45:18,324 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:45:18,324 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:45:18,324 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:18,324 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingEndTime': '2023-03-07 17:45:18'}
+2023-03-07 15:45:18,325 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '开始时间不能为空', 'data': None}
+2023-03-07 15:45:18,325 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：开始时间不能为空	实际：开始时间不能为空
+2023-03-07 15:45:19,346 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:19,367 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:45:19,368 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:45:19,368 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:45:19,368 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:19,368 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:45:19'}
+2023-03-07 15:45:19,369 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '结束时间不能为空', 'data': None}
+2023-03-07 15:45:19,369 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：结束时间不能为空	实际：结束时间不能为空
+2023-03-07 15:45:20,376 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:20,400 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:45:20,401 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:45:20,401 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:45:20,401 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:20,401 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:45:20', 'meetingEndTime': '2023-03-07 17:45:20'}
+2023-03-07 15:45:20,402 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '会议付款方式不能为空', 'data': None}
+2023-03-07 15:45:20,402 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：付款方式不能为空	实际：会议付款方式不能为空
+2023-03-07 15:45:21,420 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:21,443 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:45:21,444 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:45:21,444 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:45:21,444 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:21,444 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:45:21', 'meetingEndTime': '2023-03-07 17:45:21'}
+2023-03-07 15:45:21,445 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '类型不能为空', 'data': None}
+2023-03-07 15:45:21,445 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：类型不能为空	实际：类型不能为空
+2023-03-07 15:45:22,461 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:22,482 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:45:22,483 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:45:22,483 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:45:22,483 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:22,483 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingStartTime': '2023-03-07 16:45:22', 'meetingEndTime': '2023-03-07 17:45:22'}
+2023-03-07 15:45:22,484 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '座位数不能为空', 'data': None}
+2023-03-07 15:45:22,484 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：座位数不能为空	实际：座位数不能为空
+2023-03-07 15:45:23,505 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:23,618 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:23,618 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:23,619 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:23,619 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:23,619 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:45:24,733 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:24,755 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:24,756 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:24,756 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:24,756 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:24,757 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:45:25,909 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:25,930 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:25,931 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:25,931 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:25,931 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:25,932 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}
+2023-03-07 15:45:27,158 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:27,178 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:27,179 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:27,179 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:27,180 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:27,180 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:45:28,483 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:28,504 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:28,505 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:28,505 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:28,505 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:28,506 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:45:29,667 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:29,687 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:29,688 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:29,688 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:29,688 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:29,688 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:45:30,975 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:31,016 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:31,017 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:31,017 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:31,017 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:31,017 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:45:32,183 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:32,204 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:32,204 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:45:32,205 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633010761246728194
+2023-03-07 15:45:32,205 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:45:32,205 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:45:33,322 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:33,344 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:33,345 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:33,345 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:33,345 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:33,346 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 15:45:33,346 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：成功	实际：组局已完成,不可取消
+2023-03-07 15:45:34,525 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:34,547 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:34,548 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:34,548 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:34,548 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:34,548 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局进行中,不可取消', 'data': None}
+2023-03-07 15:45:34,549 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：进行中,不可取消	实际：组局进行中,不可取消
+2023-03-07 15:45:35,692 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:35,713 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:35,713 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:35,714 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:35,714 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:35,714 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已结束,不可取消', 'data': None}
+2023-03-07 15:45:35,714 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已结束,不可取消	实际：组局已结束,不可取消
+2023-03-07 15:45:36,873 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:36,895 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:36,896 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:36,896 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:36,897 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:36,897 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已屏蔽,不可取消', 'data': None}
+2023-03-07 15:45:36,897 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已屏蔽,不可取消	实际：组局已屏蔽,不可取消
+2023-03-07 15:45:38,082 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:38,103 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:38,104 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:38,104 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:38,104 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:38,105 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已取消,不可取消', 'data': None}
+2023-03-07 15:45:38,105 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已取消,不可取消	实际：组局已取消,不可取消
+2023-03-07 15:45:39,274 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:39,295 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:39,296 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:39,296 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:39,296 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:39,297 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局组局失败,不可取消', 'data': None}
+2023-03-07 15:45:39,297 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：组局失败,不可取消	实际：组局组局失败,不可取消
+2023-03-07 15:45:40,787 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:45:40,806 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194 HTTP/1.1" 200 None
+2023-03-07 15:45:40,807 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:45:40,807 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633010761246728194
+2023-03-07 15:45:40,808 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:45:40,808 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 15:45:40,808 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已完成,不可取消	实际：组局已完成,不可取消
+2023-03-07 15:49:40,024 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:40,065 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:40,065 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:40,066 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:40,066 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:40,066 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:49:41,174 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:41,197 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:41,198 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:41,198 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:41,198 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:41,199 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:49:42,448 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:42,475 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:42,476 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:42,476 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:42,476 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:42,476 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}
+2023-03-07 15:49:43,648 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:43,673 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:43,674 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:43,674 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:43,674 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:43,675 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已结束,不可报名', 'data': None}
+2023-03-07 15:49:44,813 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:44,834 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:44,835 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:44,835 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:44,836 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:44,836 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已屏蔽,不可报名', 'data': None}
+2023-03-07 15:49:46,023 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:46,047 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:46,048 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:46,048 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:46,048 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:46,048 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已取消,不可报名', 'data': None}
+2023-03-07 15:49:47,215 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:47,235 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:47,236 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:47,236 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:47,236 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:47,237 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '组局失败,不可报名', 'data': None}
+2023-03-07 15:49:48,397 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:49:48,418 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065 HTTP/1.1" 200 None
+2023-03-07 15:49:48,419 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:49:48,419 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1632668534431576065
+2023-03-07 15:49:48,419 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:49:48,420 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:51:52,410 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:52,491 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:51:52,493 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:51:52,493 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:51:52,493 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:51:52,493 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:51:52', 'meetingEndTime': '2023-03-07 17:51:52'}
+2023-03-07 15:51:52,494 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': '1633012419099910145'}
+2023-03-07 15:51:52,494 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：成功	实际：操作成功
+2023-03-07 15:51:53,503 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:53,525 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:51:53,525 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:51:53,526 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:51:53,526 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:51:53,526 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingEndTime': '2023-03-07 17:51:53'}
+2023-03-07 15:51:53,526 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '开始时间不能为空', 'data': None}
+2023-03-07 15:51:53,527 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：开始时间不能为空	实际：开始时间不能为空
+2023-03-07 15:51:54,536 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:54,560 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:51:54,561 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:51:54,561 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:51:54,561 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:51:54,561 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:51:54'}
+2023-03-07 15:51:54,562 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '结束时间不能为空', 'data': None}
+2023-03-07 15:51:54,562 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：结束时间不能为空	实际：结束时间不能为空
+2023-03-07 15:51:55,577 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:55,599 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:51:55,600 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:51:55,600 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:51:55,600 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:51:55,600 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:51:55', 'meetingEndTime': '2023-03-07 17:51:55'}
+2023-03-07 15:51:55,600 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '会议付款方式不能为空', 'data': None}
+2023-03-07 15:51:55,601 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：付款方式不能为空	实际：会议付款方式不能为空
+2023-03-07 15:51:56,614 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:56,634 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:51:56,635 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:51:56,636 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:51:56,636 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:51:56,636 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 16:51:56', 'meetingEndTime': '2023-03-07 17:51:56'}
+2023-03-07 15:51:56,636 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '类型不能为空', 'data': None}
+2023-03-07 15:51:56,636 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：类型不能为空	实际：类型不能为空
+2023-03-07 15:51:57,654 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:57,677 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 15:51:57,677 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 15:51:57,678 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 15:51:57,678 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:51:57,678 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingStartTime': '2023-03-07 16:51:57', 'meetingEndTime': '2023-03-07 17:51:57'}
+2023-03-07 15:51:57,678 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '座位数不能为空', 'data': None}
+2023-03-07 15:51:57,679 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：座位数不能为空	实际：座位数不能为空
+2023-03-07 15:51:58,692 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:58,748 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:51:58,748 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:51:58,749 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:51:58,749 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:51:58,749 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:51:59,863 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:51:59,884 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:51:59,885 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:51:59,885 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:51:59,885 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:51:59,885 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 15:52:01,072 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:01,099 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:01,100 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:52:01,100 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:52:01,100 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:52:01,100 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}
+2023-03-07 15:52:02,338 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:02,360 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:02,361 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:52:02,361 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:52:02,361 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:52:02,361 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已结束,不可报名', 'data': None}
+2023-03-07 15:52:03,514 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:03,540 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:03,541 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:52:03,541 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:52:03,541 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:52:03,542 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已屏蔽,不可报名', 'data': None}
+2023-03-07 15:52:04,748 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:04,769 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:04,770 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:52:04,770 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:52:04,770 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:52:04,771 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已取消,不可报名', 'data': None}
+2023-03-07 15:52:05,929 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:05,952 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:05,953 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:52:05,953 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:52:05,953 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:52:05,954 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '组局失败,不可报名', 'data': None}
+2023-03-07 15:52:07,105 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:07,127 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:07,128 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 15:52:07,128 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633012419099910145
+2023-03-07 15:52:07,128 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 15:52:07,129 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 15:52:08,281 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:08,324 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:08,325 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:08,325 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:08,326 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:08,326 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 15:52:08,326 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：成功	实际：操作成功
+2023-03-07 15:52:09,472 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:09,493 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:09,494 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:09,494 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:09,494 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:09,495 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局进行中,不可取消', 'data': None}
+2023-03-07 15:52:09,495 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：进行中,不可取消	实际：组局进行中,不可取消
+2023-03-07 15:52:10,697 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:10,723 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:10,724 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:10,724 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:10,724 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:10,725 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已结束,不可取消', 'data': None}
+2023-03-07 15:52:10,725 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已结束,不可取消	实际：组局已结束,不可取消
+2023-03-07 15:52:11,906 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:11,930 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:11,931 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:11,931 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:11,931 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:11,931 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已屏蔽,不可取消', 'data': None}
+2023-03-07 15:52:11,932 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已屏蔽,不可取消	实际：组局已屏蔽,不可取消
+2023-03-07 15:52:13,076 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:13,096 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:13,097 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:13,097 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:13,097 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:13,098 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已取消,不可取消', 'data': None}
+2023-03-07 15:52:13,098 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已取消,不可取消	实际：组局已取消,不可取消
+2023-03-07 15:52:14,247 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:14,269 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:14,270 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:14,270 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:14,270 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:14,270 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局组局失败,不可取消', 'data': None}
+2023-03-07 15:52:14,271 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：组局失败,不可取消	实际：组局组局失败,不可取消
+2023-03-07 15:52:15,456 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 15:52:15,476 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145 HTTP/1.1" 200 None
+2023-03-07 15:52:15,477 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 15:52:15,477 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633012419099910145
+2023-03-07 15:52:15,477 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 15:52:15,478 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 15:52:15,478 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已完成,不可取消	实际：组局已完成,不可取消
+2023-03-07 16:27:17,831 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:17,893 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 16:27:17,894 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 16:27:17,894 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 16:27:17,895 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:17,895 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 17:27:17', 'meetingEndTime': '2023-03-07 18:27:17'}
+2023-03-07 16:27:17,895 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': '1633021333900124162'}
+2023-03-07 16:27:17,895 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：成功	实际：操作成功
+2023-03-07 16:27:18,905 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:18,926 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 16:27:18,927 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 16:27:18,927 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 16:27:18,927 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:18,927 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingEndTime': '2023-03-07 18:27:18'}
+2023-03-07 16:27:18,928 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '开始时间不能为空', 'data': None}
+2023-03-07 16:27:18,928 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：开始时间不能为空	实际：开始时间不能为空
+2023-03-07 16:27:19,945 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:19,966 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 16:27:19,967 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 16:27:19,967 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 16:27:19,967 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:19,967 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 17:27:19'}
+2023-03-07 16:27:19,968 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '结束时间不能为空', 'data': None}
+2023-03-07 16:27:19,968 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：结束时间不能为空	实际：结束时间不能为空
+2023-03-07 16:27:20,977 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:20,998 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 16:27:20,998 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 16:27:20,998 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 16:27:21,000 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:21,000 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingType': '02', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 17:27:20', 'meetingEndTime': '2023-03-07 18:27:20'}
+2023-03-07 16:27:21,000 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '会议付款方式不能为空', 'data': None}
+2023-03-07 16:27:21,000 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：付款方式不能为空	实际：会议付款方式不能为空
+2023-03-07 16:27:22,016 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:22,036 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 16:27:22,036 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 16:27:22,037 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 16:27:22,037 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:22,037 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingSeat': 2, 'meetingStartTime': '2023-03-07 17:27:22', 'meetingEndTime': '2023-03-07 18:27:22'}
+2023-03-07 16:27:22,037 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '类型不能为空', 'data': None}
+2023-03-07 16:27:22,037 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：类型不能为空	实际：类型不能为空
+2023-03-07 16:27:23,052 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:23,073 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/add HTTP/1.1" 200 None
+2023-03-07 16:27:23,074 INFO [meeting_app.py(add_meeting:20)] - 新增组局-app
+2023-03-07 16:27:23,074 INFO [meeting_app.py(add_meeting:21)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/add
+2023-03-07 16:27:23,075 INFO [meeting_app.py(add_meeting:22)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:23,075 INFO [meeting_app.py(add_meeting:23)] - 请求体：{'meetingTitle': 'pytest_有局', 'meetingChooseType': '测试', 'meetingAddress': '地址', 'meetingAddressDetail': '详细地址', 'meetingAddressLatitude': 39.903179, 'meetingAddressLongitude': 116.397755, 'meetingPaymentType': '03', 'meetingType': '02', 'meetingStartTime': '2023-03-07 17:27:23', 'meetingEndTime': '2023-03-07 18:27:23'}
+2023-03-07 16:27:23,075 INFO [meeting_app.py(add_meeting:24)] - 响应结果：{'code': 500, 'message': '座位数不能为空', 'data': None}
+2023-03-07 16:27:23,075 INFO [assert_app_meeting.py(add_meeting_assert:9)] - 预期：座位数不能为空	实际：座位数不能为空
+2023-03-07 16:27:24,097 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:24,191 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:24,192 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:24,192 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:24,193 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:24,193 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 16:27:25,314 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:25,336 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:25,337 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:25,337 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:25,337 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:25,338 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '报名审核中，不可报名', 'data': None}
+2023-03-07 16:27:26,539 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:26,560 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:26,561 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:26,561 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:26,561 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:26,562 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '该活动已结束报名', 'data': None}
+2023-03-07 16:27:27,798 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:27,819 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:27,820 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:27,820 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:27,820 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:27,820 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已结束,不可报名', 'data': None}
+2023-03-07 16:27:28,981 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:29,002 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:29,003 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:29,003 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:29,003 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:29,004 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已屏蔽,不可报名', 'data': None}
+2023-03-07 16:27:30,181 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:30,203 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:30,204 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:30,204 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:30,204 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:30,204 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已取消,不可报名', 'data': None}
+2023-03-07 16:27:31,355 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:31,377 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:31,378 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:31,378 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:31,378 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:31,379 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '组局失败,不可报名', 'data': None}
+2023-03-07 16:27:32,531 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:32,554 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "POST /jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:32,554 INFO [meeting_app.py(apply_meeting:51)] - 报名组局-app
+2023-03-07 16:27:32,554 INFO [meeting_app.py(apply_meeting:52)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/apply/1633021333900124162
+2023-03-07 16:27:32,554 INFO [meeting_app.py(apply_meeting:53)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'nbb9exdcjzqjgnn18v3l'}
+2023-03-07 16:27:32,554 INFO [meeting_app.py(apply_meeting:54)] - 响应结果：{'code': 500, 'message': '已完成,不可报名', 'data': None}
+2023-03-07 16:27:33,734 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:33,782 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:33,783 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:33,783 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:33,783 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:33,783 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 200, 'message': '操作成功', 'data': True}
+2023-03-07 16:27:33,784 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：成功	实际：操作成功
+2023-03-07 16:27:34,959 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:34,979 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:34,980 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:34,980 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:34,980 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:34,980 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局进行中,不可取消', 'data': None}
+2023-03-07 16:27:34,981 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：进行中,不可取消	实际：组局进行中,不可取消
+2023-03-07 16:27:36,148 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:36,172 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:36,173 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:36,173 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:36,173 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:36,174 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已结束,不可取消', 'data': None}
+2023-03-07 16:27:36,174 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已结束,不可取消	实际：组局已结束,不可取消
+2023-03-07 16:27:37,365 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:37,387 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:37,388 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:37,389 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:37,389 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:37,389 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已屏蔽,不可取消', 'data': None}
+2023-03-07 16:27:37,390 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已屏蔽,不可取消	实际：组局已屏蔽,不可取消
+2023-03-07 16:27:38,549 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:38,569 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:38,570 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:38,570 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:38,570 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:38,571 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已取消,不可取消', 'data': None}
+2023-03-07 16:27:38,571 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已取消,不可取消	实际：组局已取消,不可取消
+2023-03-07 16:27:39,960 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:39,980 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:39,981 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:39,981 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:39,982 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:39,982 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局组局失败,不可取消', 'data': None}
+2023-03-07 16:27:39,982 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：组局失败,不可取消	实际：组局组局失败,不可取消
+2023-03-07 16:27:41,173 DEBUG [connectionpool.py(_new_conn:228)] - Starting new HTTP connection (1): 192.168.110.52:80
+2023-03-07 16:27:41,195 DEBUG [connectionpool.py(_make_request:456)] - http://192.168.110.52:80 "PUT /jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162 HTTP/1.1" 200 None
+2023-03-07 16:27:41,196 INFO [meeting_app.py(cancel_meeting:36)] - 取消组局-app
+2023-03-07 16:27:41,196 INFO [meeting_app.py(cancel_meeting:37)] - 请求url：http://192.168.110.52/jurenmai/explore/app/v2.0/meeting/cancel/1633021333900124162
+2023-03-07 16:27:41,196 INFO [meeting_app.py(cancel_meeting:38)] - 请求头：{'User-Agent': 'pytest', 'login_token': 'us98xzpxliir7n95vyj7'}
+2023-03-07 16:27:41,196 INFO [meeting_app.py(cancel_meeting:39)] - 响应结果：{'code': 500, 'message': '组局已完成,不可取消', 'data': None}
+2023-03-07 16:27:41,197 INFO [assert_app_meeting.py(cancel_meeting:16)] - 预期：已完成,不可取消	实际：组局已完成,不可取消

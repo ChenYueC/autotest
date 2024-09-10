@@ -1,19 +1,19 @@
-  api
-    login：存放登录api、用于用户登录、获取token
+api
+  login：存放登录api、用于用户登录、获取token
   meeting_admin：存放请求后台的接口方法
-  meeting_admin：存放请求app的接口方法
-  assert_method
-  存放断言方法
+  meeting_admin：存放请求app的接口方法  
+assert_method
+  存放断言方法  
 data
-  存放数据、测试数据、接口数据、token等
+  存放数据、测试数据、接口数据、token等  
 report
-  allure报告目录
+  allure报告目录  
 tmp_report
-  临时报告数据目录，用于生成allure
+  临时报告数据目录，用于生成allure  
 method
-  存放使用的工具方法
+  存放使用的工具方法  
 test_case_script
-  测试用例
+  测试用例  
 
 
 # 设置用例优先级
